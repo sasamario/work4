@@ -1,0 +1,336 @@
+@charset "UTF-8";
+header li{
+  list-style-type:none;
+}
+.btn:hover{
+  opacity:0.9;
+}
+header{
+  height:50px;
+  width:100%;
+  border-bottom:1px solid #dddddd;
+  border-top:4px solid #ffa500;
+}
+.header-top{
+  width:940px;
+  margin:0 auto;
+}
+.header-logo{
+  font-style:normal;
+  font-size:20px;
+  float:left;
+  color:#ffa500;
+  margin:0;
+}
+
+header li{
+  font-size:12px;
+  float:left;
+  padding:0 20px 0;
+}
+header li span{
+  color:#ffa500;
+}
+
+.header-btn{
+  float:right;
+  font-size:12px;
+  text-decoration:none;
+  background-color:#f5f5f5;
+  border-radius:3px;
+  padding:5px 10px;
+}
+.content-main{
+  width:100%;
+  height:260px;
+  background-color:white;
+  position:relative;
+}
+.content-main-second{
+  width:930px;
+  margin:0 auto;
+  position:relative;
+}
+.main-image{
+  padding:15px 0 10px 0;
+}
+ .lesson-btn{
+  display:inline-block;
+  background-color:#5bb75b;
+  border-radius:5px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  width:250px;
+  height:50px;
+  /**文字が真ん中に行くようにline-heightの高さを同じにする**/
+  line-height:50px;
+}
+.main-btn{
+  position:absolute;
+  top:160px;
+  left:60px;
+}
+
+.login-box{
+  border:1px solid #dddddd;
+  width:200px;
+  position:absolute;
+  right:0px;
+  top:30px;
+}
+.login-box-sub{
+  width:180px;
+  margin:10px;
+}
+.touroku-btn,.login-btn{
+  display:block;
+  background-color:#f5f5f5;
+  border-radius:5px;
+  color:black;
+  padding:10px 10px;
+  text-decoration:none;
+  text-align:center;
+  font-size:12px;
+}
+.login-btn{
+  padding:5px 10px;
+  margin-top:10px;
+}
+
+.sns-box{
+  width:180px;
+  margin:10px;
+  display:flex;
+}
+.sns-btn{
+  width:50%;
+  text-decoration:none;
+  text-align:center;
+  border-radius:3px;
+  margin:0 5px;
+}
+.sns-btn span{
+  color:#fff;
+}
+.twitter-btn{
+  background-color:#0099FF;
+}
+.facebook-btn{
+  background-color:#3366CC;
+}
+.top-bar{
+  text-align:center;
+  font-size:14px;
+  padding:17px 0 17px;
+  background-color:#f8f8f8;
+  margin:0;
+  border-top:1px solid #dddddd;
+  border-bottom:1px solid #dddddd;
+  margin-bottom:20px;
+}
+.top-bar strong{
+  font-size:18px;
+}
+.contents{
+  width:940px;
+  margin:30px auto 30px;
+  height:1000px;
+}
+.content-left{
+  float:left;
+  width:630px;
+  padding-right:20px;
+}
+.content-left-header{
+  font-size:17px;
+  border-bottom:1px solid #dddddd;
+  margin-top:0;
+}
+.second{
+  padding-top:20px;
+}
+.lesson{
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+/**lastクラスのついているもの以外に点線のボーダーをつける**/
+.lesson:not(.last){
+  border-bottom:1px dotted #dddddd;
+}
+.lesson-icon{
+  float:left;
+  border:1px solid #dddddd;
+  padding:1px;
+  margin-right:10px;
+  height:60px;
+}
+.lesson-text{
+  width:480px;
+  height:64px;
+  font-size:14px;
+  margin:0;
+}
+.lesson-text a{
+  color:#87CEFA;
+  text-decoration:none;
+}
+.lesson-text a:hover{
+  text-decoration:underline;
+}
+.bottom-btn{
+  width:300px;
+  height:50px;
+  margin-left:165px;
+  margin-top:30px;
+}
+
+/**右の要素**/
+.content-right{
+  float:right;
+  width:280px;
+  margin:0 auto;
+  border:1px solid #dddddd;
+}
+.right-box {
+  float:left;
+  width:250px;
+  padding:6px 15px 5px;
+  border-bottom:1px dotted #dddddd;
+}
+
+.lesson-info-top{
+  font-size:11px;
+  text-align:center;
+  height:35px;
+  line-height:35px;
+  background-color:#f8f8f8;
+  margin:0;
+  border-bottom:1px solid #dddddd;
+}
+.new{
+  background-color:#f89406;
+  border-radius:3px;
+  color:#fff;
+  font-size:11px;
+  padding:1px 5px;
+}
+
+.lesson-icon-right{
+  width:40px;
+  height:40px;
+  border:1px solid #dddddd;
+  padding:1px;
+}
+.lesson-text-right{
+  width:200px;
+  font-size:11px;
+  float:right;
+  margin:0;
+}
+.lesson-text-right a{
+  text-decoration:none;
+  color:#87CEFA;
+}
+.lesson-text-right a:hover{
+  text-decoration:underline;
+}
+.more-lesson{
+  font-size:11px;
+  float:right;
+  margin:5px 15px 10px 0;
+  color:#87CEFA;
+  text-decoration:none;
+}
+.more-lesson:hover{
+  text-decoration:underline;
+}
+
+/**最新情報部分を下にやるためにcontentsのpositionをrelativeに**/
+.contents{
+  position:relative;
+}
+.content-right-bottom-info{
+  position:absolute;
+  bottom:100px;
+  right:0;
+  width:280px;
+  height:140px;
+  border:1px solid #dddddd;
+}
+
+.twitter-info{
+  background-color:#0099FF;
+  text-decoration:none;
+  display:block;
+  width:140px;
+  border-radius:5px;
+  padding:0px 5px;
+  margin-top:10px;
+  margin-left:10px;
+}
+.twitter-info span,.facebook-info span{
+  color:#fff;
+  font-size:10px;
+}
+.facebook-info{
+  background-color:#3366CC;
+  display:inline-block;
+  width:55px;
+  border-radius:5px;
+  padding:0 5px;
+  margin:10px 0 10px 10px;
+  float:left;
+}
+.facebook-text{
+  float:left;
+  display:inline-block;
+  margin:10px 0 0 10px;
+  font-size:10px;
+  width:180px;
+}
+.facebook-text a{
+  text-decoration:none;
+}
+.facebook-text span{
+  color:#3366cc;
+}
+
+footer{
+  background-color:#f8f8f8;
+  width:100%;
+  border-top:1px solid #dddddd;
+}
+.footer-contents{
+  margin:0 auto;
+  width:900px;
+  display:flex;
+  padding:10px 0;
+}
+.footer-content{
+  width:30%;
+  padding:0 20px 0 10px;
+}
+.footer-top{
+  border-bottom:1px solid #dddddd;
+
+  font-size:12px;
+}
+.footer-text{
+  font-size:11px;
+}
+.under{
+  text-decoration:none;
+  list-style:disc;
+  color:#0099FF;
+}
+.list{
+  padding-left:15px;
+}
+.copyright{
+  color:#aaa;
+  font-size:10px;
+  margin:0;
+  padding:0 40px 20px;
+  text-align:right;
+}
